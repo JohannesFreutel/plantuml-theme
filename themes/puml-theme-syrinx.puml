@@ -63,6 +63,7 @@ skinparam useBetaStyle false
 !$BACKGROUND_DARKER = "#141c27"
 '' FOREGROUND
 !$WHITE = "#fff"
+!$FONT_LIGHT = "#f3f3f3"
 
 
 !$GRAY_DARK = "#5a5a5a"
@@ -383,13 +384,13 @@ skinparam database {
 
 skinparam class {
 	$PRIMARY_SCHEME()
-	BackgroundColor $GREEN_LIGHTER
-    HeaderBackgroundColor WHITE
-    BorderColor $GREEN_DARK
+	BackgroundColor $BACKGROUND_DARK
+    HeaderBackgroundColor $BACKGROUND_DARKER
+    BorderColor $BACKGROUND_MID
     HeaderFontSize 18
 	StereotypeFontColor WHITE
 	BorderThickness 1
-	AttributeFontColor $BACKGROUND_DARK
+	AttributeFontColor $FONT_LIGHT
 	AttributeFontSize 14
     
 
