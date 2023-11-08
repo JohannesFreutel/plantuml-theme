@@ -12,7 +12,7 @@ skinparam useBetaStyle false
 !$JADE_LIGHT = "#4bc9b1"
 !$JADE_MID = "#2f7d6f"
 !$JADE_DARK = "#1b4941"
-!$JADE_DARKER = "#081512"
+!$JADE_DARKER = "#1c302b"
 '' ACCENT BLUE
 !$BLUE_LIGHTER = "#80adff"
 !$BLUE_LIGHT = "#6088bf"
@@ -124,11 +124,11 @@ skinparam backgroundColor WHITE
 ''
 skinparam defaultFontName        "Verdana"
 skinparam defaultFontSize        12
-skinparam dpi                    300
+skinparam dpi                    200
 skinparam shadowing              false
 skinparam roundcorner            0
-skinparam ParticipantPadding     30
-skinparam BoxPadding             40
+skinparam ParticipantPadding     10
+skinparam BoxPadding             10
 skinparam Padding                8
 skinparam ArrowColor             $GRAY
 skinparam stereotype {
@@ -231,7 +231,7 @@ skinparam sequence {
 	''
 	LifeLineBorderColor $GREEN_DARK
 	LifeLineBorderThickness 2
-	LifeLineBackgroundColor $SECONDARY_LIGHT
+	LifeLineBackgroundColor $BACKGROUND_LIGHTER
 	''
 	GroupBorderColor $GRAY
 	GroupFontColor $DARK
@@ -381,12 +381,12 @@ skinparam class {
 	$PRIMARY_SCHEME()
 	BackgroundColor $BACKGROUND_DARK
     HeaderBackgroundColor $BACKGROUND_DARKER
-    BorderColor $BACKGROUND_MID
+    BorderColor $BACKGROUND_DARKER
     HeaderFontSize 18
-	StereotypeFontColor WHITE
+	StereotypeFontColor $AQUAMARINE_MID
 	BorderThickness 1
 	AttributeFontColor $FONT_LIGHT
-	AttributeFontSize 14
+	AttributeFontSize 15
     
 
 }
@@ -407,9 +407,10 @@ skinparam object {
 
 skinparam usecase {
 	$PRIMARY_SCHEME()
-    backgroundColor $BACKGROUND_DARK
-    FontColor WHITE
-    BorderColor $BACKGROUND_MID
+    FontSize 14
+    backgroundColor WHITE
+    FontColor $BACKGROUND_DARK
+    BorderColor $GREEN_MID
 	BorderThickness 2
 	StereotypeFontColor $JADE_MID
 }
