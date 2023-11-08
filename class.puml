@@ -1,7 +1,7 @@
 @startuml
 !theme syrinx from /themes
 
-package de.homelabs.webapps.workbench.menu { 
+package menu { 
 
 interface IMenuItem {
 	String getLink()
