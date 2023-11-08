@@ -124,7 +124,7 @@ skinparam backgroundColor WHITE
 ''
 skinparam defaultFontName        "Verdana"
 skinparam defaultFontSize        12
-skinparam dpi                    100
+skinparam dpi                    300
 skinparam shadowing              false
 skinparam roundcorner            0
 skinparam ParticipantPadding     30
