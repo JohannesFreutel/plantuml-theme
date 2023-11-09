@@ -1,10 +1,11 @@
-@startuml
+@startuml .
 !theme syrinx from /themes
 abstract class AbstractList
 abstract AbstractCollection
+package stuff {
 interface List
 interface Collection
-
+}
 List <|-- AbstractList
 Collection <|-- AbstractCollection
 

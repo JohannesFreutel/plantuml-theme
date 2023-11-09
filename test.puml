@@ -1,0 +1,8 @@
+@startuml .
+!theme syrinx from /themes
+folder {
+    class2 -- class4
+}
+
+
+@enduml

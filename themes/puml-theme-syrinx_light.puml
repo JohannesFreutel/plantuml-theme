@@ -1,5 +1,5 @@
 
-!$THEME = "syrinx"
+!$THEME = "syrinx_light"
 
 !if %not(%variable_exists("$BGCOLOR"))
 !$BGCOLOR = "transparent"
@@ -124,7 +124,7 @@ skinparam backgroundColor WHITE
 ''
 skinparam defaultFontName        "Verdana"
 skinparam defaultFontSize        12
-skinparam dpi                    200
+skinparam dpi                    100 
 skinparam shadowing              false
 skinparam roundcorner            0
 skinparam ParticipantPadding     10
@@ -144,12 +144,12 @@ skinparam stereotype {
     NBorderColor $INFO_DARK
 }
 skinparam title {
-	FontColor	                 $BACKGROUND_DARK
+	FontColor	                 $BACKGROUND_MID
 	BorderColor	                 $SECONDARY_DARK
 	FontSize	    	         20
-	BorderRoundCorner            8
-	BorderThickness 	         1
-	BackgroundColor              $SECONDARY_LIGHT-$SECONDARY
+	BorderRoundCorner            0
+	BorderThickness 	         2
+	BackgroundColor              WHITE
 }
 
 
@@ -229,10 +229,9 @@ skinparam sequence {
 	''
 	DelayFontColor $DARK
 	''
-	LifeLineBorderColor $GREEN_DARK
+	LifeLineBorderColor $BACKGROUND_MID
 	LifeLineBorderThickness 2
-	LifeLineBackgroundColor $BACKGROUND_LIGHTER
-	''
+	LifeLineBackgroundColor WHITE
 	GroupBorderColor $GRAY
 	GroupFontColor $DARK
 	GroupHeaderFontColor $INFO
@@ -251,6 +250,8 @@ skinparam sequence {
 	ReferenceHeaderFontColor $INFO
 	''
 	StereotypeFontColor $JADE_MID
+
+    ArrowThickness 1.8
 }
 !endsub
 
@@ -283,6 +284,7 @@ skinparam control {
 skinparam entity {
 	$PRIMARY_SCHEME()
 	FontColor $JADE_MID
+
 }
 !endsub
 
@@ -410,9 +412,10 @@ skinparam usecase {
     FontSize 14
     backgroundColor WHITE
     FontColor $BACKGROUND_DARK
-    BorderColor $GREEN_MID
+    BorderColor $BACKGROUND_DARK
 	BorderThickness 2
 	StereotypeFontColor $JADE_MID
+    ArrowThickness 2
 }
 !endsub
 
@@ -430,7 +433,7 @@ skinparam rectangle {
 skinparam package {
     TitleFontColor $BLUE_LIGHT
     FontColor $JADE_MID
-	BorderColor $BACKGROUND_LIGHTER
+	BorderColor $BACKGROUND_LIGHT
 	BackgroundColor WHITE
 	BorderThickness 2
 }
