@@ -149,7 +149,7 @@ skinparam title {
 	FontSize	    	         16
 	BorderRoundCorner            0
 	BorderThickness 	         2
-	BackgroundColor              $BLUE_DARK
+	BackgroundColor              transparent
 }
 
 
