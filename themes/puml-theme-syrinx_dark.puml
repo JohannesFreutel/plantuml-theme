@@ -386,10 +386,10 @@ skinparam class {
 	$PRIMARY_SCHEME()
 	BackgroundColor $BACKGROUND_DARK
     HeaderBackgroundColor $BACKGROUND_DARKER
-    BorderColor $BACKGROUND_LIGHT
+    BorderColor $BACKGROUND_MID
     HeaderFontSize 18
 	StereotypeFontColor $AQUAMARINE_MID
-	BorderThickness 1
+	BorderThickness 2
 	AttributeFontColor $FONT_LIGHT
 	AttributeFontSize 15
     
