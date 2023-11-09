@@ -145,11 +145,11 @@ skinparam stereotype {
 }
 skinparam title {
 	FontColor	                 $FONT_LIGHT
-	BorderColor	                 $BLUE_DARKER
+	BorderColor	                 $BACKGROUND_DARKER
 	FontSize	    	         16
 	BorderRoundCorner            0
 	BorderThickness 	         2
-	BackgroundColor              $JADE_MID
+	BackgroundColor              $BLUE_DARK
 }
 
 
@@ -201,7 +201,7 @@ skinparam participant {
 skinparam actor {
 	$PRIMARY_SCHEME()
     backgroundColor $BACKGROUND_LIGHT
-	FontColor $BACKGROUND_LIGHTER
+	FontColor $ROSE_MID
     FontSize 20
     BorderThickness 5
     BorderColor $BACKGROUND_LIGHT
@@ -438,7 +438,7 @@ skinparam package {
     TitleFontColor $BLUE_LIGHT
     FontColor $JADE_MID
 	BorderColor $BACKGROUND_LIGHT
-	BackgroundColor $GRAY
+	BackgroundColor transparent
 	BorderThickness 2
 }
 !endsub
