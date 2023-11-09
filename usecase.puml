@@ -1,5 +1,5 @@
 @startuml . 
-!theme syrinx_dark from /themes
+!theme syrinx_hybrid from /themes
 title This is the title
 left to right direction
 skinparam packageStyle rect
