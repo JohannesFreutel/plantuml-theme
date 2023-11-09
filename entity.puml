@@ -1,5 +1,5 @@
 @startuml .
-!theme syrinx_light from /themes
+!theme syrinx_dark from /themes
 ' verstecke das E im Entitäten-Titel
 hide circle
 

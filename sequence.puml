@@ -1,7 +1,7 @@
 @startuml
-!theme syrinx from /themes
+!theme syrinx_dark from /themes
 hide footbox
-autonumber "<b>[0]"
+autonumber "[ 0 ]"
 participant SharePoint
 participant DeploymentService
 participant ArtifactRepo

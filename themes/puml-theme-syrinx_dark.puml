@@ -92,7 +92,7 @@ skinparam useBetaStyle false
 !$DANGER_DARK = "#a62222"
 !$DANGER_TEXT = $WHITE
 
-skinparam backgroundColor WHITE
+skinparam backgroundColor $BACKGROUND_DARK
 !procedure $success($msg)
   <font color=$SUCCESS><b>$msg
 !endprocedure
@@ -144,12 +144,12 @@ skinparam stereotype {
     NBorderColor $INFO_DARK
 }
 skinparam title {
-	FontColor	                 $BACKGROUND_MID
-	BorderColor	                 $SECONDARY_DARK
-	FontSize	    	         20
+	FontColor	                 $FONT_LIGHT
+	BorderColor	                 $BACKGROUND_LIGHT
+	FontSize	    	         16
 	BorderRoundCorner            0
 	BorderThickness 	         2
-	BackgroundColor              WHITE
+	BackgroundColor              $BACKGROUND_DARK
 }
 
 
@@ -189,6 +189,9 @@ skinparam activity {
 skinparam participant {
 	$PRIMARY_SCHEME()
 	ParticipantBorderThickness 2
+    BackgroundColor $BACKGROUND_DARK
+    FontColor $BACKGROUND_LIGHTER
+    BorderColor $BACKGROUND_LIGHT
 }
 !endsub
 
@@ -197,7 +200,7 @@ skinparam participant {
 skinparam actor {
 	$PRIMARY_SCHEME()
     backgroundColor $BACKGROUND_LIGHT
-	FontColor $BACKGROUND_DARK
+	FontColor $BACKGROUND_LIGHTER
     FontSize 20
     BorderThickness 5
     BorderColor $BACKGROUND_LIGHT
@@ -225,13 +228,13 @@ skinparam sequence {
 	''
 	BoxBackgroundColor $BACKGROUND_DARK
 	BoxBorderColor $GRAY
-	BoxFontColor $DARK
+	BoxFontColor $FONT_LIGHT
 	''
 	DelayFontColor $DARK
 	''
-	LifeLineBorderColor $BACKGROUND_MID
+	LifeLineBorderColor $BACKGROUND_LIGHT
 	LifeLineBorderThickness 2
-	LifeLineBackgroundColor WHITE
+	LifeLineBackgroundColor $BACKGROUND_DARKER
 	GroupBorderColor $GRAY
 	GroupFontColor $DARK
 	GroupHeaderFontColor $INFO
@@ -250,7 +253,7 @@ skinparam sequence {
 	ReferenceHeaderFontColor $INFO
 	''
 	StereotypeFontColor $JADE_MID
-
+    ArrowFontColor $FONT_LIGHT
     ArrowThickness 1.8
 }
 !endsub
@@ -383,7 +386,7 @@ skinparam class {
 	$PRIMARY_SCHEME()
 	BackgroundColor $BACKGROUND_DARK
     HeaderBackgroundColor $BACKGROUND_DARKER
-    BorderColor $BACKGROUND_DARKER
+    BorderColor $JADE_MID
     HeaderFontSize 18
 	StereotypeFontColor $AQUAMARINE_MID
 	BorderThickness 1
@@ -410,9 +413,9 @@ skinparam object {
 skinparam usecase {
 	$PRIMARY_SCHEME()
     FontSize 14
-    backgroundColor WHITE
-    FontColor $BACKGROUND_DARK
-    BorderColor $BACKGROUND_DARK
+    backgroundColor $BACKGROUND_DARKER
+    FontColor $FONT_LIGHT
+    BorderColor $JADE_MID
 	BorderThickness 2
 	StereotypeFontColor $JADE_MID
     ArrowThickness 2
@@ -434,7 +437,7 @@ skinparam package {
     TitleFontColor $BLUE_LIGHT
     FontColor $JADE_MID
 	BorderColor $BACKGROUND_LIGHT
-	BackgroundColor WHITE
+	BackgroundColor $BACKGROUND_DARK
 	BorderThickness 2
 }
 !endsub

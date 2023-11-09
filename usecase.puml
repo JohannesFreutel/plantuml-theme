@@ -1,6 +1,6 @@
 @startuml . 
-!theme syrinx from /themes
-title Modèle d'usage\n <b>enflatme</b>
+!theme syrinx_dark from /themes
+title This is the title
 left to right direction
 skinparam packageStyle rect
 skinparam shadowing false
