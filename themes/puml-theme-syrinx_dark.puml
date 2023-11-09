@@ -384,9 +384,9 @@ skinparam database {
 
 skinparam class {
 	$PRIMARY_SCHEME()
-	BackgroundColor $BACKGROUND_DARK
-    HeaderBackgroundColor $BACKGROUND_DARKER
-    BorderColor $BACKGROUND_MID
+	BackgroundColor $BACKGROUND_DARKER
+    HeaderBackgroundColor $BLUE_DARK
+    BorderColor $BLUE_DARKER
     HeaderFontSize 18
 	StereotypeFontColor $AQUAMARINE_MID
 	BorderThickness 2
@@ -413,9 +413,9 @@ skinparam object {
 skinparam usecase {
 	$PRIMARY_SCHEME()
     FontSize 14
-    backgroundColor $BACKGROUND_DARKER
+    backgroundColor BLACK
     FontColor $FONT_LIGHT
-    BorderColor $JADE_MID
+    BorderColor $BACKGROUND_DARK
 	BorderThickness 2
 	StereotypeFontColor $JADE_MID
     ArrowThickness 2
