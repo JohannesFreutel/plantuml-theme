@@ -92,7 +92,7 @@ skinparam useBetaStyle false
 !$DANGER_DARK = "#a62222"
 !$DANGER_TEXT = $WHITE
 
-skinparam backgroundColor $BACKGROUND_DARK
+skinparam backgroundColor transparent
 !procedure $success($msg)
   <font color=$SUCCESS><b>$msg
 !endprocedure
