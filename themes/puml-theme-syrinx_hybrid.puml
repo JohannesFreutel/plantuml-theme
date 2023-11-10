@@ -189,9 +189,9 @@ skinparam activity {
 skinparam participant {
 	$PRIMARY_SCHEME()
 	ParticipantBorderThickness 2
-    BackgroundColor $BLUE_DARK
-    FontColor $FONT_LIGHT
-    BorderColor $BLUE_DARKER
+    BackgroundColor transparent
+    FontColor $BLUE_LIGHT
+    BorderColor $BACKGROUND_LIGHT
     
 }
 !endsub
