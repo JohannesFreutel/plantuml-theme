@@ -233,9 +233,9 @@ skinparam sequence {
 	''
 	DelayFontColor $DARK
 	''
-	LifeLineBorderColor $BACKGROUND_MID
+	LifeLineBorderColor $BACKGROUND_LIGHT
 	LifeLineBorderThickness 4
-	LifeLineBackgroundColor $AQUAMARINE_MID
+	LifeLineBackgroundColor $BACKGROUND_DARK
 	GroupBorderColor $GRAY
 	GroupFontColor $DARK
 	GroupHeaderFontColor $INFO
@@ -254,8 +254,7 @@ skinparam sequence {
 	ReferenceHeaderFontColor $INFO
 	''
 	StereotypeFontColor $JADE_MID
-    ArrowColor BLACK
-    ArrowFontColor $JADE_MID
+    ArrowFontColor $BACKGROUND_LIGHT
     ArrowThickness 1.8
 }
 !endsub
