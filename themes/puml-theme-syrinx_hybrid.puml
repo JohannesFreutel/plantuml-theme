@@ -190,7 +190,7 @@ skinparam participant {
 	$PRIMARY_SCHEME()
 	ParticipantBorderThickness 2
     BackgroundColor transparent
-    FontColor $ROSE_MID
+    FontColor $JADE_MID
     BorderColor $BACKGROUND_LIGHT
     
 }
@@ -235,7 +235,7 @@ skinparam sequence {
 	''
 	LifeLineBorderColor BLACK
 	LifeLineBorderThickness 3
-	LifeLineBackgroundColor $BACKGROUND_MID
+	LifeLineBackgroundColor $FONT_LIGHT
 	GroupBorderColor $GRAY
 	GroupFontColor $DARK
 	GroupHeaderFontColor $INFO
