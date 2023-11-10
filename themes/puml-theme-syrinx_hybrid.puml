@@ -144,11 +144,11 @@ skinparam stereotype {
     NBorderColor $INFO_DARK
 }
 skinparam title {
-	FontColor	                 $FONT_LIGHT
+	FontColor	                 $BACKGROUND_LIGHT
 	BorderColor	                 $BACKGROUND_DARKER
 	FontSize	    	         16
 	BorderRoundCorner            0
-	BorderThickness 	         2
+	BorderThickness 	         0
 	BackgroundColor              transparent
 }
 
@@ -189,9 +189,9 @@ skinparam activity {
 skinparam participant {
 	$PRIMARY_SCHEME()
 	ParticipantBorderThickness 2
-    BackgroundColor $JADE_MID
-    FontColor $FONT_LIGHT
-    BorderColor $BLUE_DARKER
+    BackgroundColor transparent
+    FontColor $ROSE_MID
+    BorderColor $BACKGROUND_LIGHT
     
 }
 !endsub
