@@ -255,7 +255,7 @@ skinparam sequence {
 	''
 	StereotypeFontColor $JADE_MID
     ArrowColor BLACK
-    ArrowFontColor $BACKGROUND_LIGHT
+    ArrowFontColor $JADE_MID
     ArrowThickness 1.8
 }
 !endsub
