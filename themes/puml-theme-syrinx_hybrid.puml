@@ -190,7 +190,7 @@ skinparam participant {
 	$PRIMARY_SCHEME()
 	ParticipantBorderThickness 2
     BackgroundColor transparent
-    FontColor $BLUE_LIGHT
+    FontColor $BLUE_LIGHTER
     BorderColor $BACKGROUND_LIGHT
     
 }
