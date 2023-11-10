@@ -235,7 +235,7 @@ skinparam sequence {
 	''
 	LifeLineBorderColor $BACKGROUND_LIGHT
 	LifeLineBorderThickness 4
-	LifeLineBackgroundColor $GRAY
+	LifeLineBackgroundColor $BLUE_DARK
 	GroupBorderColor $GRAY
 	GroupFontColor $DARK
 	GroupHeaderFontColor $INFO
