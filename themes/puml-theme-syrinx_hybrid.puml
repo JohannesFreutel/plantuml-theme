@@ -222,7 +222,7 @@ skinparam arrow {
 skinparam sequence {
 	BorderColor $JADE_MID
 	' For some reason sequence title font color does not pick up from global
-	TitleFontColor $JADE_MID
+	TitleFontColor $BACKGROUND_MID
 	BackgroundColor $BGCOLOR
 	StartColor $JADE_MID
 	EndColor $JADE_MID
@@ -233,9 +233,9 @@ skinparam sequence {
 	''
 	DelayFontColor $DARK
 	''
-	LifeLineBorderColor $JADE_MID
-	LifeLineBorderThickness 2
-	LifeLineBackgroundColor $FONT_LIGHT
+	LifeLineBorderColor $ROSE_MID
+	LifeLineBorderThickness 3
+	LifeLineBackgroundColor transparent
 	GroupBorderColor $GRAY
 	GroupFontColor $DARK
 	GroupHeaderFontColor $INFO
