@@ -189,9 +189,9 @@ skinparam activity {
 skinparam participant {
 	$PRIMARY_SCHEME()
 	ParticipantBorderThickness 2
-    BackgroundColor transparent
-    FontColor $JADE_MID
-    BorderColor $BACKGROUND_LIGHT
+    BackgroundColor $BLUE_DARK
+    FontColor $FONT_LIGHT
+    BorderColor $BLUE_DARKER
     
 }
 !endsub
@@ -234,7 +234,7 @@ skinparam sequence {
 	DelayFontColor $DARK
 	''
 	LifeLineBorderColor BLACK
-	LifeLineBorderThickness 3
+	LifeLineBorderThickness 4
 	LifeLineBackgroundColor $FONT_LIGHT
 	GroupBorderColor $GRAY
 	GroupFontColor $DARK
@@ -254,7 +254,7 @@ skinparam sequence {
 	ReferenceHeaderFontColor $INFO
 	''
 	StereotypeFontColor $JADE_MID
-    ArrowFontColor $AQUAMARINE_MID
+    ArrowFontColor $BLUE_LIGHT
     ArrowThickness 1.8
 }
 !endsub
