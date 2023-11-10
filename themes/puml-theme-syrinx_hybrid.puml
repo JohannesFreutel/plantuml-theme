@@ -254,7 +254,7 @@ skinparam sequence {
 	ReferenceHeaderFontColor $INFO
 	''
 	StereotypeFontColor $JADE_MID
-    ArrowFontColor $BLUE_LIGHT
+    ArrowFontColor BLACK
     ArrowThickness 1.8
 }
 !endsub
@@ -414,9 +414,9 @@ skinparam object {
 skinparam usecase {
 	$PRIMARY_SCHEME()
     FontSize 14
-    backgroundColor $BLUE_DARK
+    backgroundColor BLACK
     FontColor $FONT_LIGHT
-    BorderColor $BLUE_DARKER
+    BorderColor $BACKGROUND_DARK
 	BorderThickness 2
 	StereotypeFontColor $JADE_MID
     ArrowThickness 2
