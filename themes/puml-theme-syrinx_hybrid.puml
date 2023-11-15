@@ -385,13 +385,13 @@ skinparam database {
 
 skinparam class {
 	$PRIMARY_SCHEME()
-	BackgroundColor $BACKGROUND_MID
-    HeaderBackgroundColor $BLUE_DARK
+	BackgroundColor transparent
+    HeaderBackgroundColor transparent
     BorderColor $BACKGROUND_LIGHT
     HeaderFontSize 18
 	StereotypeFontColor $AQUAMARINE_MID
-	BorderThickness 2
-	AttributeFontColor $FONT_LIGHT
+	BorderThickness 1
+	AttributeFontColor $JADE_MID
 	AttributeFontSize 15
     
 

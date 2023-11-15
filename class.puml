@@ -1,5 +1,5 @@
 @startuml .
-!theme syrinx_dark from /themes
+!theme syrinx_hybrid from /themes
 abstract class AbstractList
 abstract AbstractCollection
 package stuff {
