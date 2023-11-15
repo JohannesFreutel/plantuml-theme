@@ -385,9 +385,9 @@ skinparam database {
 
 skinparam class {
 	$PRIMARY_SCHEME()
-	BackgroundColor $BACKGROUND_DARKER
+	BackgroundColor $BACKGROUND_MID
     HeaderBackgroundColor $BLUE_DARK
-    BorderColor $BLUE_DARKER
+    BorderColor $BACKGROUND_LIGHT
     HeaderFontSize 18
 	StereotypeFontColor $AQUAMARINE_MID
 	BorderThickness 2
