@@ -393,10 +393,11 @@ skinparam class {
 	BorderThickness 1
 	AttributeFontColor $BLUE_LIGHT
 	AttributeFontSize 15
-    
+    ArrowThickness 0.5
 
 }
 !endsub
+
 
 !startsub object
 
@@ -437,7 +438,7 @@ skinparam rectangle {
 skinparam package {
     TitleFontColor $BLUE_LIGHT
     FontColor $JADE_MID
-	BorderColor $BACKGROUND_LIGHT
+	BorderColor $JADE_MID
 	BackgroundColor transparent
 	BorderThickness 2
 }
