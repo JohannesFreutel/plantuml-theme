@@ -384,7 +384,6 @@ skinparam database {
 !startsub class
 
 skinparam class {
-	$PRIMARY_SCHEME()
 	BackgroundColor transparent
     HeaderBackgroundColor transparent
     BorderColor $BACKGROUND_LIGHT
@@ -440,7 +439,7 @@ skinparam package {
     FontColor $JADE_MID
 	BorderColor $JADE_MID
 	BackgroundColor transparent
-	BorderThickness 2
+	BorderThickness 1
 }
 !endsub
 
