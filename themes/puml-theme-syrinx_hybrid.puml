@@ -391,7 +391,7 @@ skinparam class {
     HeaderFontSize 18
 	StereotypeFontColor $AQUAMARINE_MID
 	BorderThickness 1
-	AttributeFontColor $JADE_MID
+	AttributeFontColor $BLUE_LIGHT
 	AttributeFontSize 15
     
 
