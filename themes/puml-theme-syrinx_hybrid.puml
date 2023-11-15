@@ -413,11 +413,11 @@ skinparam object {
 
 skinparam usecase {
 	$PRIMARY_SCHEME()
-    FontSize 18
+    FontSize 20
     backgroundColor $BACKGROUND_DARK
     FontColor $FONT_LIGHT
     BorderColor $FONT_LIGHT
-	BorderThickness 2
+	BorderThickness 1
 	StereotypeFontColor $JADE_MID
     ArrowThickness 2
 }
