@@ -388,7 +388,7 @@ skinparam class {
     HeaderBackgroundColor transparent
     BorderColor $BACKGROUND_LIGHT
     HeaderFontSize 18
-	StereotypeFontColor $AQUAMARINE_MID
+	StereotypeFontColor $ROSE_MID
 	BorderThickness 1
 	AttributeFontColor WHITE
 	AttributeFontSize 15
