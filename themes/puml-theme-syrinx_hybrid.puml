@@ -384,13 +384,13 @@ skinparam database {
 !startsub class
 
 skinparam class {
-	BackgroundColor $BLUE_DARK
+	BackgroundColor transparent
     HeaderBackgroundColor transparent
     BorderColor $BACKGROUND_LIGHT
     HeaderFontSize 18
 	StereotypeFontColor $ROSE_MID
 	BorderThickness 1
-	AttributeFontColor WHITE
+	AttributeFontColor $ROSE_MID
 	AttributeFontSize 15
     ArrowThickness 0.5
 
