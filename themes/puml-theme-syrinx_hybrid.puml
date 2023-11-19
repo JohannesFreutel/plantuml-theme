@@ -13,6 +13,9 @@ skinparam useBetaStyle false
 !$JADE_MID = "#2f7d6f"
 !$JADE_DARK = "#1b4941"
 !$JADE_DARKER = "#1c302b"
+'' GREEN
+!$GREEN_MID = "#3c5246"
+!$GREEN_DARK = "#2f4238"
 '' ACCENT BLUE
 !$BLUE_LIGHTER = "#80adff"
 !$BLUE_LIGHT = "#6088bf"
@@ -382,11 +385,12 @@ skinparam database {
 !endsub
 
 !startsub class
-
+skinparam roundCorner 6
 skinparam class {
-	BackgroundColor $BLUE_DARK
-    HeaderBackgroundColor transparent
-    BorderColor $BACKGROUND_LIGHT
+	BackgroundColor $GREEN_DARK
+    HeaderBackgroundColor #101721
+    BorderColor #101721
+    RoundCorner 10
     HeaderFontSize 18
 	StereotypeFontColor $ROSE_MID
 	BorderThickness 1
