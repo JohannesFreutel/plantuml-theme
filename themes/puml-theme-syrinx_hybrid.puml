@@ -432,9 +432,9 @@ skinparam rectangle {
 !startsub package
 
 skinparam package {
-    TitleFontColor $BLUE_LIGHT
-    FontColor $JADE_MID
-	BorderColor $JADE_MID
+    TitleFontColor $BACKGROUND_MID
+    FontColor $BACKGROUND_MID
+	BorderColor $BACKGROUND_MID
 	BackgroundColor transparent
 	BorderThickness 1
 }
