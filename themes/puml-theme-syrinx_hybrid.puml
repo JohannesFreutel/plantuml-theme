@@ -253,7 +253,7 @@ skinparam sequence {
 	ReferenceHeaderFontColor $INFO
 	''
 	StereotypeFontColor $JADE_MID
-    ArrowFontColor $GREEN_LIGHT
+    ArrowFontColor $GREEN_LIGHTER
     ArrowThickness 1.8
 }
 !endsub
