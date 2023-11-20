@@ -14,6 +14,8 @@ skinparam useBetaStyle false
 !$JADE_DARK = "#1b4941"
 !$JADE_DARKER = "#1c302b"
 '' GREEN
+!$GREEN_LIGHTER = "#83a993"
+!$GREEN_LIGHT = "#5b7968"
 !$GREEN_MID = "#3c5246"
 !$GREEN_DARK = "#2f4238"
 !$GREEN_DARKER = "#202a25"
@@ -230,7 +232,7 @@ skinparam sequence {
 	''
 	DelayFontColor $DARK
 	''
-	LifeLineBorderColor #101721
+	LifeLineBorderColor $BACKGROUND_LIGHT
 	LifeLineBorderThickness 4
 	LifeLineBackgroundColor $GREEN_DARK
 	GroupBorderColor $GRAY
@@ -251,7 +253,7 @@ skinparam sequence {
 	ReferenceHeaderFontColor $INFO
 	''
 	StereotypeFontColor $JADE_MID
-    ArrowFontColor $GREEN_MID
+    ArrowFontColor $GREEN_LIGHT
     ArrowThickness 1.8
 }
 !endsub
