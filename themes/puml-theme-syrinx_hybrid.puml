@@ -200,7 +200,7 @@ skinparam participant {
 skinparam actor {
 	$PRIMARY_SCHEME()
     backgroundColor $BACKGROUND_LIGHT
-	FontColor $ROSE_MID
+	FontColor $BLUE_LIGHTER
     FontSize 20
     BorderThickness 5
     BorderColor $BACKGROUND_LIGHT
@@ -253,7 +253,7 @@ skinparam sequence {
 	ReferenceHeaderFontColor $INFO
 	''
 	StereotypeFontColor $JADE_MID
-    ArrowFontColor $BACKGROUND_LIGHTER
+    ArrowFontColor $BLUE_LIGHTER
     ArrowThickness 1.8
 }
 !endsub
