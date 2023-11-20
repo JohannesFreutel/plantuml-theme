@@ -234,7 +234,7 @@ skinparam sequence {
 	''
 	LifeLineBorderColor $BACKGROUND_LIGHT
 	LifeLineBorderThickness 4
-	LifeLineBackgroundColor $GREEN_DARK
+	LifeLineBackgroundColor #101721
 	GroupBorderColor $GRAY
 	GroupFontColor $DARK
 	GroupHeaderFontColor $INFO
@@ -253,7 +253,7 @@ skinparam sequence {
 	ReferenceHeaderFontColor $INFO
 	''
 	StereotypeFontColor $JADE_MID
-    ArrowFontColor $GREEN_LIGHTER
+    ArrowFontColor $ROSE_MID
     ArrowThickness 1.8
 }
 !endsub
