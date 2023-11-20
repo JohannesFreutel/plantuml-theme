@@ -234,7 +234,7 @@ skinparam sequence {
 	''
 	LifeLineBorderColor $BACKGROUND_LIGHT
 	LifeLineBorderThickness 4
-	LifeLineBackgroundColor #101721
+	LifeLineBackgroundColor $GREEN_DARK
 	GroupBorderColor $GRAY
 	GroupFontColor $DARK
 	GroupHeaderFontColor $INFO
@@ -414,7 +414,7 @@ skinparam object {
 skinparam usecase {
 	$PRIMARY_SCHEME()
     FontSize 20
-    backgroundColor $BLUE_DARK
+    backgroundColor $GREEN_DARK
     FontColor WHITE
     BorderColor $BLUE_DARKER
 	BorderThickness 1
