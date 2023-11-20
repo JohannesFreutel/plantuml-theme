@@ -230,9 +230,9 @@ skinparam sequence {
 	''
 	DelayFontColor $DARK
 	''
-	LifeLineBorderColor 
+	LifeLineBorderColor #101721
 	LifeLineBorderThickness 4
-	LifeLineBackgroundColor #101721
+	LifeLineBackgroundColor $GREEN_DARK
 	GroupBorderColor $GRAY
 	GroupFontColor $DARK
 	GroupHeaderFontColor $INFO
