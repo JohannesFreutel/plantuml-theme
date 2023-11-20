@@ -16,6 +16,7 @@ skinparam useBetaStyle false
 '' GREEN
 !$GREEN_MID = "#3c5246"
 !$GREEN_DARK = "#2f4238"
+!$GREEN_DARKER = "#202a25"
 '' ACCENT BLUE
 !$BLUE_LIGHTER = "#80adff"
 !$BLUE_LIGHT = "#6088bf"
@@ -231,7 +232,7 @@ skinparam sequence {
 	''
 	LifeLineBorderColor $GREEN_DARK
 	LifeLineBorderThickness 4
-	LifeLineBackgroundColor $BLUE_DARK
+	LifeLineBackgroundColor $GREEN_DARKER
 	GroupBorderColor $GRAY
 	GroupFontColor $DARK
 	GroupHeaderFontColor $INFO
@@ -250,7 +251,7 @@ skinparam sequence {
 	ReferenceHeaderFontColor $INFO
 	''
 	StereotypeFontColor $JADE_MID
-    ArrowFontColor $GREEN_DARK
+    ArrowFontColor $GREEN_MID
     ArrowThickness 1.8
 }
 !endsub
